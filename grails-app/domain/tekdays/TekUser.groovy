@@ -1,6 +1,6 @@
 package tekdays
 
-class TekUsers {
+class TekUser {
 
     String fullName
     String userName

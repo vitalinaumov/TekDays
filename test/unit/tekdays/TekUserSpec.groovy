@@ -7,7 +7,7 @@ import spock.lang.Specification
  * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
  */
 @TestFor(TekUsers)
-class TekUsersSpec extends Specification {
+class TekUserSpec extends Specification {
 
     def setup() {
     }
