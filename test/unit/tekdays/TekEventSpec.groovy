@@ -25,6 +25,6 @@ class TekEventSpec extends Specification {
                                     endDate: new Date('6/5/2009'),
                                     description: 'This conference will cover all...')
         then: "the toString method will combine them."
-        assertEquals 'Groovy One, San Francisco, CA', tekEvent.toString()
+           assertEquals 'Groovy One, San Francisco, CA', tekEvent.toString()
     }
 }
