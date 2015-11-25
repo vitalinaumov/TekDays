@@ -26,6 +26,8 @@ class TekEvent {
         endDate()
         volunteers(nullable:true)
         sponsorships(nullable:true)
+        tasks(nullable: true)
+        messages(nullable: true)
     }
 
     String toString(){
